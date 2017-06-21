@@ -1,0 +1,26 @@
+{
+  "name": "fccweatherapp",
+  "version": "1.0.0",
+  "description": "Weather Application created from FreeCodeCamp's challenge Show The Local Weather",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint . --ext .json --ext .md",
+    "pretest": "npm run lint",
+    "test": "echo \"No tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshuaakulp/FCCWeatherApp.git"
+  },
+  "author": "Joshua Kulp, <joshuaakulp@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joshuaakulp/FCCWeatherApp/issues"
+  },
+  "homepage": "https://github.com/joshuaakulp/FCCWeatherApp#readme",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-plugin-json": "^1.2.0",
+    "eslint-plugin-markdown": "^1.0.0-beta.6"
+  }
+}
